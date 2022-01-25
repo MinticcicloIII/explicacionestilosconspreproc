@@ -1,0 +1,19 @@
+@import './colors.scss';
+@import'./mixins.scss';
+
+.estilo1{
+    @include fondodiv ($miColor1,$miColor2,$miColor3)
+
+}
+.estilo2{
+    @include fondodiv ($miColor3, $miColor4, $miColor2)
+
+}
+.estilo3{
+    @include fondodiv ($miColor2,$miColor3,$miColor1)
+
+}
+.estilo4{
+    @include fondodiv ($miColor4,$miColor2,$miColor3)
+
+}

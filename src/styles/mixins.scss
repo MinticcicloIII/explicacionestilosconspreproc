@@ -1,0 +1,9 @@
+@mixin fondodiv($colorFondo, $colorSombra, $colorFuente) {
+    background-color: $colorFondo;
+    box-shadow: 5px 5px 5px $colorSombra;
+    color: $colorFuente;    
+}
+
+/*Bacano porque en estas funcioncitas mixin uno puede poner valores por defect
+por ejemplo: $colorFondo:red y acá se puede hacer que si el dev no mete color en el fondo
+se mete rojo*/
