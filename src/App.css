@@ -2,3 +2,7 @@
   background-color: black;
   color: bisque;
 }
+.posicion{
+  display: flex;
+  height: 50px;
+}
